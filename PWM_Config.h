@@ -45,9 +45,9 @@ typedef enum{
 }Clk_Select;
 
 typedef struct{
-	Waveform_Gen_Mode	Waveform_Generation_Mode;
-	CMP_Match			Compare_Output_Mode;
-	Clk_Select			Prescaler_Select;
+	Waveform_Gen_Mode Waveform_Generation_Mode;
+	CMP_Match	  Compare_Output_Mode;
+	Clk_Select	  Prescaler_Select;
 }Struct_PWM;
 
 void PWM_Init (Struct_PWM);
